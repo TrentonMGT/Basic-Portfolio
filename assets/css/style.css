@@ -1,0 +1,71 @@
+p, .text {
+	color: #777777;
+}
+
+body {
+	width: 650px;
+	background-color: silver;
+}
+
+#wrapper {
+	background-color: maroon;
+	background-image: url("../image/cork-wallet.png");
+	width: 960px;
+}
+
+#header-logo {
+	background: red;
+	padding-bottom: 5px;
+	/*position: fixed !important;*/
+   	width: 100%;
+   	z-index: 10000;
+}
+
+#name {
+	background: blue;
+}
+
+#nav-bar {
+	background: white;
+}
+
+#nav-li {
+	background: green;
+}
+
+#social-media {
+	position: relative;
+	left: -6%;
+	right: 20%;
+	bottom:10%;
+	top: 10%;
+	border: 3px solid #73AD21;
+	background: purple;
+	width: 237px;
+	height: 179px;
+	float: right;
+	margin-top: 23px;
+
+}
+
+#bio {
+	position: relative;
+	left: 5%;
+	right: 1%;
+	top: 1%;
+	bottom: 1%;
+	background: orange;
+	width: 571px;
+	height: auto;
+}
+
+#portfolio-img {
+	border: 10px;
+	background-color: gray;
+}
+
+footer {
+	background: violet;
+}
+
+
