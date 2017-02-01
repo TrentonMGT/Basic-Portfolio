@@ -1,5 +1,12 @@
-p, .text {
-	color: #777777;
+
+p {
+	color: blue;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.bio-text {
+	float: left;
+	
 }
 
 body {
@@ -40,32 +47,55 @@ body {
 	bottom:10%;
 	top: 10%;
 	border: 3px solid #73AD21;
-	background: purple;
 	width: 237px;
 	height: 179px;
 	float: right;
 	margin-top: 23px;
+	background-color: #fff;
 
 }
 
 #bio {
-	position: relative;
-	left: 5%;
-	right: 1%;
-	top: 1%;
-	bottom: 1%;
-	background: orange;
-	width: 571px;
-	height: auto;
+    position: relative;
+    left: 5%;
+    right: 1%;
+    top: 1%;
+    bottom: 1%;
+    background-color: #fff;
+    border: gray;
+    width: 536px;
+    height: auto;    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
 }
 
-#portfolio-img {
-	border: 10px;
-	background-color: gray;
+.porfolio-img {
+	margin: 3px 18px 11px 0px;
+    width: 273px;
+    height: 220px;
+    float: left;
 }
+
+.about-me {
+	position: relative;
+    left: 0px;
+    right: 1px;
+    top: 12px;
+    bottom: 1px;
+    width: 516px;
+    height: 47px;
+    border-bottom: 2px solid gray;
+    text-align: initial;
+}
+
+/*img {
+	float: left;
+}*/
 
 footer {
-	background: violet;
+	background: #666;
+	height:52px; 
 }
 
 
