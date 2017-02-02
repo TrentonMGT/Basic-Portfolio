@@ -14,7 +14,6 @@ body {
 
 }
 
-
 #nav-ul a {
     display: inline;
     padding: 10px;
@@ -175,6 +174,53 @@ p#footer {
 
 h3#social-media-title {
 	color: #4EAAA4;
+}
+
+/*Contact html*/
+.contact-form {
+	position: relative;
+    left: 5%;
+    right: 1%;
+    top: 104px;
+    bottom: 1%;
+    background-color: #fff;
+    border: gray;
+    width: 536px;
+    height: auto;    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.contact-form input label {
+	position: relative;
+	left:10px;
+}
+
+.contact-form h1 {
+	color: #4EAAA4;
+	position: relative;
+    left: 0px;
+    right: 1px;
+    top: 12px;
+    bottom: 1px;
+    width: 516px;
+    height: 47px;
+    border-bottom: 2px solid #DDDDDD;
+    text-align: initial;
+}
+
+.contact-form input {
+	border: 2px solid #DDDDDD;
+}
+
+.contact-form label {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+} 
+
+.contact-form textarea {
+	border-bottom: 2px solid #DDDDDD;
 }
 
 
