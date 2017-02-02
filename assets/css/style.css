@@ -87,6 +87,11 @@ body {
 
 }
 
+li #social-media {
+	margin-right:;
+
+}
+
 #bio {
     position: relative;
     left: 5%;
@@ -159,11 +164,12 @@ p#footer {
 }
 #social-media ul {
 	padding: 0;
+	margin-right: 14px;
 }
 
 #social-media li {
 	border-top: 2px solid #DDDDDD;
-	margin: 2px 6px 0 6px;	
+	margin: 2px 6px 0 15px;	
 	padding-top: 12px;
 }
 
