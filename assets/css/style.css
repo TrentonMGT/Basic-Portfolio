@@ -217,10 +217,23 @@ h3#social-media-title {
 .contact-form label {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 10px;
+	font-weight: lighter;
 } 
 
 .contact-form textarea {
 	border-bottom: 2px solid #DDDDDD;
+}
+
+.contact-form input[type=submit] {
+    width: 25%;
+    background-color:#4EAAA4;
+    color:  #DDDDDD;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
 }
 
 
