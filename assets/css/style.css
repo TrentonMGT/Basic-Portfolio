@@ -1,52 +1,84 @@
 
-p {
-	color: blue;
-	font-family: "Times New Roman", Times, serif;
+
+ul {
+    list-style-type: none;
 }
 
-.bio-text {
-	float: left;
-	
-}
+#social-media-title {
+	margin-left: 44px;
+	color:#fff;
+} 
 
-body {
+body { 
 	width: 650px;
-	background-color: silver;
+
+}
+
+
+#nav-ul a {
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 110%;
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
 #wrapper {
 	background-color: maroon;
 	background-image: url("../image/cork-wallet.png");
 	width: 960px;
+	height: 1000px;
 }
 
 #header-logo {
-	background: red;
-	padding-bottom: 5px;
-	/*position: fixed !important;*/
-   	width: 100%;
-   	z-index: 10000;
+	overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    height: 84px;
+   	width: 960px;
+   	margin: 0;
+    padding: 0;
+    top: 0;
+   	z-index: 10000; 
+
 }
 
 #name {
-	background: blue;
+	position: relative;
+    top: -29px;
+    left: 47px;
+    color: #fff;
+    background-color: #4EAAA4;
+    width: 355px;
+    height: 52px;
+    text-align: center;
+    font-size: 283%;
+    padding-bottom: 18px;
+    padding-top: 18px;
 }
 
 #nav-bar {
-	background: white;
+	position: relative;
+    background-color: #fff;
+    float: right;
+    margin-right: 51px;
+    top: -127px;
+    bottom: 218px;
 }
 
 #nav-li {
-	background: green;
+	float: left;
 }
 
 #social-media {
 	position: relative;
-	left: -6%;
+	left: -5%;
 	right: 20%;
 	bottom:10%;
-	top: 10%;
-	border: 3px solid #73AD21;
+	top: 80px;
+	border: 2px solid #DDD;
 	width: 237px;
 	height: 179px;
 	float: right;
@@ -59,7 +91,7 @@ body {
     position: relative;
     left: 5%;
     right: 1%;
-    top: 1%;
+    top: 104px;
     bottom: 1%;
     background-color: #fff;
     border: gray;
@@ -78,6 +110,7 @@ body {
 }
 
 .about-me {
+	color: #4EAAA4;
 	position: relative;
     left: 0px;
     right: 1px;
@@ -85,17 +118,57 @@ body {
     bottom: 1px;
     width: 516px;
     height: 47px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #DDDDDD;
     text-align: initial;
 }
 
-/*img {
-	float: left;
-}*/
-
 footer {
 	background: #666;
-	height:52px; 
+	overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    height: 80px;
+   	width: 960px;
+   	margin: 0;
+    padding: 0;
+    bottom: 0;
+   	z-index: 10000; 
+   	background-color: #666666;
+   	border-top: 10px solid #4EAAA4;
+   	text-align: center;
+}
+
+p#footer {
+	margin-top: 26px;
+	color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: small;
+}
+
+#social-media a {
+    display: inline;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 110%;
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+#social-media ul {
+	padding: 0;
+}
+
+#social-media li {
+	border-top: 2px solid #DDDDDD;
+	margin: 2px 6px 0 6px;	
+	padding-top: 12px;
+}
+
+h3#social-media-title {
+	color: #4EAAA4;
 }
 
 
