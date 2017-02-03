@@ -11,7 +11,6 @@ ul {
 
 body { 
 	width: 650px;
-
 }
 
 #nav-ul a {
@@ -22,6 +21,11 @@ body {
     color: #999999;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+}
+
+
+#nav-ul a:hover {
+	background-color: black;
 }
 
 #wrapper {
@@ -177,7 +181,7 @@ h3#social-media-title {
 }
 
 /*Contact html*/
-.contact-form {
+.contact-form, .portfolio{
 	position: relative;
     left: 5%;
     right: 1%;
@@ -197,7 +201,7 @@ h3#social-media-title {
 	left:10px;
 }
 
-.contact-form h1 {
+.contact-form, .portfolio h1 {
 	color: #4EAAA4;
 	position: relative;
     left: 0px;
@@ -220,7 +224,7 @@ h3#social-media-title {
 	font-weight: lighter;
 } 
 
-.contact-form textarea {
+.contact-form  textarea {
 	border-bottom: 2px solid #DDDDDD;
 }
 
@@ -236,4 +240,26 @@ h3#social-media-title {
     font-size: medium;
 }
 
+.portfolio img {
+	float: left;
+    width: 236px;
+    height: 150px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+
+}
+.portfolio {
+	padding-bottom: 650px ;
+}
+
+.portfolio p{
+	
+   	background-color: #666666;
+   	text-align: center;
+   	float: left;
+    border-width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
 
