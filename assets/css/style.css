@@ -188,7 +188,7 @@ h3#social-media-title {
 }
 
 /*Contact html*/
-.contact-form , .portfolio{
+.contact-form {
 	position: relative;
     left: 5%;
     right: 1%;
@@ -279,4 +279,19 @@ h3#social-media-title {
     text-align: center;
     background-color: #4EAAA4;
     color: #fff;
+}
+
+.portfolio{
+	position: relative;
+    left: 5%;
+    right: 1%;
+    top: 104px;
+    bottom: 1%;
+    background-color: #fff;
+    border: gray;
+    width: 536px;
+    height: auto;    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 648px;
 }
