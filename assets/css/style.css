@@ -1,13 +1,16 @@
 ul {
     list-style-type: none;
 }
+
 #social-media-title {
     margin-left: 44px;
     color: #fff;
 }
+
 body {
     width: 650px;
 }
+
 #nav-ul a {
     display: inline;
     padding: 10px;
@@ -17,22 +20,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
+
 #nav-ul a:hover {
     border: 1px solid #4EAAA4;
     color: #999999;
     padding-bottom: 26px;
 }
+
 #nav-ul a:active {
     background-color: #4EAAA4;
     border: 1px solid #4EAAA4;
     color: #fff;
     padding-bottom: 26px;
 }
+
 #wrapper {
     background-image: url(../image/cork-wallet.png);
     width: 196%;
     height: 1000px;
 }
+
 #header-logo {
     overflow: hidden;
     background-color: #fff;
@@ -44,6 +51,7 @@ body {
     top: 0;
     z-index: 10000;
 }
+
 #name {
     position: relative;
     top: -29px;
@@ -57,6 +65,7 @@ body {
     padding-bottom: 18px;
     padding-top: 18px;
 }
+
 #nav-bar {
     position: relative;
     background-color: #fff;
@@ -65,9 +74,11 @@ body {
     top: -127px;
     bottom: 218px;
 }
+
 #nav-li {
     float: left;
 }
+
 #social-media {
     position: relative;
     left: -5%;
@@ -81,9 +92,11 @@ body {
     margin-top: 23px;
     background-color: #fff;
 }
+
 li #social-media {
     margin-right: ;
 }
+
 #bio {
     position: relative;
     left: 23%;
@@ -98,12 +111,14 @@ li #social-media {
     padding-right: 25px;
     padding-bottom: 10px;
 }
+
 .porfolio-img {
     margin: 3px 18px 11px 0px;
     width: 273px;
     height: 220px;
     float: left;
 }
+
 .about-me {
     color: #4EAAA4;
     position: relative;
@@ -116,6 +131,7 @@ li #social-media {
     border-bottom: 2px solid #DDDDDD;
     text-align: initial;
 }
+
 footer {
     background: #666;
     overflow: hidden;
@@ -131,6 +147,7 @@ footer {
     border-top: 10px solid #4EAAA4;
     text-align: center;
 }
+
 p#footer {
     margin-top: 26px;
     color: #fff;
@@ -138,6 +155,7 @@ p#footer {
     font-weight: lighter;
     font-size: small;
 }
+
 #social-media a {
     display: inline;
     padding: 0px;
@@ -149,18 +167,23 @@ p#footer {
     margin: 0;
     padding: 0;
 }
+
 #social-media ul {
     padding: 0;
     margin-right: 14px;
 }
+
 #social-media li {
     border-top: 2px solid #DDDDDD;
     margin: 2px 6px 0 15px;
     padding-top: 12px;
 }
+
 h3#social-media-title {
     color: #4EAAA4;
 }
+
+
 /*Contact html*/
 
 .contact-form {
@@ -177,16 +200,19 @@ h3#social-media-title {
     padding-right: 25px;
     padding-bottom: 10px;
 }
+
 .contact-form input label {
     position: relative;
     left: 10px;
 }
+
 #fname,
 #lname,
 #email {
     width: 500px;
     height: 30px;
 }
+
 .contact-form h1,
 .portfolio h1 {
     color: #4EAAA4;
@@ -200,17 +226,21 @@ h3#social-media-title {
     border-bottom: 2px solid #DDDDDD;
     text-align: initial;
 }
+
 .contact-form input {
     border: 2px solid #DDDDDD;
 }
+
 .contact-form label {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     font-weight: lighter;
 }
+
 .contact-form textarea {
     border-bottom: 2px solid #DDDDDD;
 }
+
 .contact-form input[type=submit] {
     width: 25%;
     background-color: #4EAAA4;
@@ -222,9 +252,12 @@ h3#social-media-title {
     cursor: pointer;
     font-size: medium;
 }
+
 #message {
     border: 2px solid #DDDDDD;
 }
+
+
 /*Portfolio*/
 
 .img {
@@ -234,9 +267,11 @@ h3#social-media-title {
     width: 248px;
     height: 190px;
 }
+
 .img:hover {
     border: 1px solid #4EAAA4;
 }
+
 .desc {
     position: relative;
     top: -95px;
@@ -248,6 +283,7 @@ h3#social-media-title {
     background-color: #4EAAA4;
     color: #fff;
 }
+
 .portfolio {
     position: relative;
     left: 23%;
